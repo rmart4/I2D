@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QCM Vocabulaire Technique</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Vocabulaire technique des formes de pièces</h1>
+      <p class="subtitle">Identifie l'élément désigné par la flèche</p>
+    </header>
+
+    <section id="setup-screen" class="screen">
+      <h2>Choisis le nombre de questions</h2>
+      <div class="choice-buttons">
+        <button class="choice-btn" data-count="5">5 questions</button>
+        <button class="choice-btn" data-count="10">10 questions</button>
+      </div>
+    </section>
+
+    <section id="quiz-screen" class="screen hidden">
+      <div class="progress">
+        <span id="question-counter">Question 1/5</span>
+        <span id="score-live">Score : 0</span>
+      </div>
+      <div class="image-wrap">
+        <img id="question-image" src="" alt="Pièce technique">
+      </div>
+      <div id="answers" class="answers"></div>
+      <div id="feedback" class="feedback hidden"></div>
+      <button id="next-btn" class="next-btn hidden">Question suivante</button>
+    </section>
+
+    <section id="result-screen" class="screen hidden">
+      <h2>Résultat</h2>
+      <p id="result-text" class="result-text"></p>
+      <button id="restart-btn" class="choice-btn">Recommencer</button>
+    </section>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

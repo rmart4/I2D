@@ -1,0 +1,52 @@
+// Banque de questions : image exacte extraite de la fiche "Vocabulaire technique"
+// + terme correct (issu de la fiche de synthèse STI2D 2I2D I.T.E.C.)
+const QUESTION_BANK = [
+  { img: "images/alesage_1.png", answer: "Alésage" },
+  { img: "images/arbre_1.png", answer: "Arbre" },
+  { img: "images/arrondi_1.png", answer: "Arrondi" },
+  { img: "images/bossage_1.png", answer: "Bossage" },
+  { img: "images/goutte_de_suif_1.png", answer: "Goutte de suif" },
+  { img: "images/goutte_de_suif_2.png", answer: "Goutte de suif" },
+  { img: "images/chanfrein_1.png", answer: "Chanfrein" },
+  { img: "images/chanfrein_2.png", answer: "Chanfrein" },
+  { img: "images/chanfrein_3.png", answer: "Chanfrein" },
+  { img: "images/conge_1.png", answer: "Congé" },
+  { img: "images/conge_2.png", answer: "Congé" },
+  { img: "images/chambrage_1.png", answer: "Chambrage" },
+  { img: "images/collet_1.png", answer: "Collet" },
+  { img: "images/degagement_1.png", answer: "Dégagement" },
+  { img: "images/dent_1.png", answer: "Dent" },
+  { img: "images/entaille_1.png", answer: "Entaille" },
+  { img: "images/epaulement_1.png", answer: "Epaulement" },
+  { img: "images/ergot_1.png", answer: "Ergot" },
+  { img: "images/evidement_1.png", answer: "Evidement" },
+  { img: "images/fente_1.png", answer: "Fente" },
+  { img: "images/fraisure_1.png", answer: "Fraisure" },
+  { img: "images/gorge_1.png", answer: "Gorge" },
+  { img: "images/lamage_1.png", answer: "Lamage" },
+  { img: "images/languette_1.png", answer: "Languette" },
+  { img: "images/lumiere_1.png", answer: "Lumière" },
+  { img: "images/meplat_1.png", answer: "Méplat" },
+  { img: "images/mortaise_1.png", answer: "Mortaise" },
+  { img: "images/nervure_1.png", answer: "Nervure" },
+  { img: "images/profile_1.png", answer: "Profilé" },
+  { img: "images/queue_aronde_1.png", answer: "Queue d'aronde" },
+  { img: "images/rainure_1.png", answer: "Rainure" },
+  { img: "images/rainure_2.png", answer: "Rainure" },
+  { img: "images/rainure_3.png", answer: "Rainure" },
+  { img: "images/saignee_1.png", answer: "Saignée" },
+  { img: "images/embase_1.png", answer: "Embase" },
+  { img: "images/semelle_1.png", answer: "Semelle" },
+  { img: "images/teton_1.png", answer: "Téton" },
+];
+
+// Liste complète des termes pouvant servir de mauvaises réponses (distracteurs)
+const ALL_TERMS = [
+  "Alésage", "Arbre", "Arrondi", "Bossage", "Boutonnière", "Chambrage",
+  "Chanfrein", "Collet", "Collerette", "Congé", "Décrochement", "Dégagement",
+  "Dent", "Embase", "Embrèvement", "Encoche", "Entaille", "Epaulement",
+  "Ergot", "Evidement", "Fente", "Fraisure", "Gorge", "Goutte de suif",
+  "Lamage", "Languette", "Locating", "Lumière", "Macaron", "Méplat",
+  "Mortaise", "Nervure", "Profilé", "Queue d'aronde", "Rainure", "Saignée",
+  "Semelle", "Tenon", "Téton", "Trou oblong"
+];
